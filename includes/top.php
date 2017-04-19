@@ -26,9 +26,7 @@
   <ul>
   <li class="active"><a href="home.php"><span>Main Page</span></a></li>
      <li><a href="main.php"><span>Beijing History</span></a></li>
-     <li><a href="main.php"><span>Beijing Tour</span></a></li>
-     <li><a href="main.php"><span>Things To Do</span></a>
-      <li><a href="main.php"><span>Fun Places</span></a></li>
+     <li><a href="main.php"><span>Beijing Tour</span></a></li>     
       <li><a href="main.php"><span>Great Restaurants</span></a></li>
      <li><a href="main.php"><span>Contact Me</span></a></li>
     </ul>

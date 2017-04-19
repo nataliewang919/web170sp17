@@ -1,0 +1,225 @@
+/* CSS RESET */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-color:black; 
+	}
+	
+body{
+    background-color:white; 
+	}
+	
+header.mainheader{
+	background-color:darkred; 
+	color:darkorange; 
+	text-align: center;
+	width:100%;
+	}
+
+h1 {
+  padding: 0 .5em .1em 0;
+  text-align: right;
+}
+
+h2 {
+    text-align: center; 
+}
+
+p {
+    line-height:1.5em; 
+	margin: 1em 0;
+}
+
+div.indexpic img{
+	width:100%; 
+	max-width:800px; 
+}
+
+div.headerpic img{
+	width:100%; 
+	max-width:1000px; 
+}
+
+
+div.mainpartone {
+	float:left; 
+	width:50%; 
+}
+
+div.mainparttwo{
+	float:right; 
+	width:50%; 
+}
+
+div.mainpartone img, div.mainparttwo img {
+	width:100%;   
+}
+
+div.sidebar{
+    
+    width:35%;
+}
+
+/*start-embed responsive code*/ 
+div.embed-container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%;
+	width:90%;
+	margin:auto; 
+	} 
+
+div.embed-container iframe {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+	}
+
+
+/*end embed rsponsive code*/
+footer {
+	clear:both; 
+	background-color:black; 
+	color:#fff; 
+	text-align:center; 
+}
+
+footer a {
+	color:#fff; 
+}
+
+footer a:hover {
+	color:darkorange;
+	text-decoration:none; 
+}
+
+/* start reCAPTCHA styles */
+
+/* writes to small text above reCAPTCHA upon failure */
+.dateFeedback{
+	font-style:italic;
+	font-size:70%;
+	font-weight:bold;
+	color:#f00;
+}
+
+input:required {
+	  border: 1px solid red;
+}
+
+ input:optional, textarea:optional {
+	 background-color:#f1f1f1;
+	 border:1px solid #ccc;
+}
+
+input[type="submit"], input[type="button"] {
+  background-color: #fff;
+  border-radius: 4px;
+  border: solid 1px #ccc;
+  padding: 0.3em 0.5em;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  max-width: 350px;
+}
+
+legend {
+  margin-left: 0.5em;
+  margin-bottom: 0.5em; 
+  padding: 0.2em 0.5em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+form div{
+	margin-bottom:2%; 
+	
+}
+/* end reCAPTCHA styles */
+
+/*desktop*/	
+@media all and (min-width:1280px){
+body{	
+background-color: white;
+margin:auto; 
+	}
+
+main{
+	width:85%; 	
+	margin:auto;
+	}
+
+article.contactme {
+	float:left;
+	width:45%; 
+	background-color:white; 
+	padding-left:2.5%; 
+}
+
+article.mainpage, article.tour{
+	float:left;
+	width:65%; 
+	background-color:white; 
+	 
+}
+
+aside{
+	float:right;
+	width:49%; 
+	background-color:white; 
+	 
+}
+
+footer{
+	font-size:1em; 
+	letter-spacing:.20em;
+	padding:25px 0 15px 0; 
+}
+
+    aside.sidebar{
+    float:right;
+	width:25%; 
+    }
+    
+article.thingstodo, article.map{
+    width:100%; 
+	background-color:white;  
+	}
+	
+article.roastduck{
+	float:left;
+	width:55%;
+}
+
+aside.restaurantduck{
+	float:right;
+	width:42%; 
+	background-color:white;
+}
+}
+/*tablet*/
+@media all and (min-width:481px) and (max-width:1279px){
+	body{
+	background-color:lightpink; 	
+	}
+		
+	}
+
+/*phone*/
+@media all and (max-width:480px){
+	body{
+		background-color:lightgoldenrodyellow; 
+		
+	}
+	
+	
+}

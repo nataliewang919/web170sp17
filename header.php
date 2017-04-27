@@ -7,12 +7,11 @@
 <meta name="viewport" content="width=device-width" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-   <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
-   <script src="js/script.js"></script>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/fp.css" />
-<link rel="stylesheet" href="css/styles.css" />
-<link href="css/flexslider.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css" />
+<link href="flexslider.css" rel="stylesheet" media="screen" type="text/css" />
 </head>
 <body>
 <header class="mainheader"> 

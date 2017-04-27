@@ -1,4 +1,4 @@
-<?php include ("includes/top.php");?>
+<?php include ("includes/header.php");?>
 <!-- START LEFT Column -->
 <main>
 <article>
@@ -44,4 +44,4 @@
 
 <!-- END Aside our Right Column-->
 
-<?php include ("includes/bottom.php");?>
+<?php include ("includes/footer.php");?>

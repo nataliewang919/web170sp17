@@ -9,6 +9,7 @@ $siteKey = "6LflcSQTAAAAANGnwfCWIqXbC-BAdFRJyYp2-hs4";
 $secretKey = "6LflcSQTAAAAALGeg7ZB3VZhXHkwoLn9i13sos8t";
 
 //place URL & labels in the variable/array here for navigation:
+/*
 $nav1['fp.php'] = "Main Page";
 $nav1['alice.php'] = "Alice";
 $nav1['cat.php'] = "Cat";
@@ -16,6 +17,7 @@ $nav1['queen.php'] = "The Queen";
 $nav1['rabbit.php'] = "The Rabbit";
 $nav1['hatter.php'] = "The Hatter";
 $nav1['gallery.php'] = "The Gallery";
+*/
 
 //this line below identifies the current page
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
@@ -33,60 +35,21 @@ switch(THIS_PAGE)
   $myPageID = "Welcome to Peking Fun!";
   break;
   
-  case "main.php":
+  case "index.php":
   $myTitle = "About Beijing page";
   $myPic ="beijing-banner-new.jpg";
   $myAlt = "Peking index pic";
   $myPageID = "Old and New Beijing!";
   break; 
   
-  case "main.php":
-  $myTitle = "thingtodo.page";
-  $myPic ="beijing-banner-new.jpg";
-  $myAlt = "Peking index pic";
-  $myPageID = "Things to do in Beijing!";
-  break; 
-  
-  case "main.php":
-  $myTitle = "Beijing Tour Page";
-   $myPic ="beijing-banner-new.jpg";
-  $myAlt = "Peking index pic";
-  $myPageID = " Tour Recommendation in Beijing";
-  break;
-  
-  case "main.php":
-  $myTitle = "Travel Communities page";
-  $myPic ="beijing-banner-new.jpg";
-  $myAlt = "Peking index pic";
-  $myPageID = "Share your thoughts with me";
-  break;
-  
-  case "main.php":
-  $myTitle = "Fun Places page";
-  $myPic ="beijing-banner-new.jpg";
-  $myAlt = "Peking index pic";
-  $myPageID = "Come to see fun places in Beijing";
-  break;
-  
-  case "main.php":
-  $myTitle = "Restaurant page";
-  $myPic ="beijing-banner-new.jpg";
-  $myAlt = "Peking index pic";
-  $myPageID = "Oh Beijing Famous Restaurant";
-  break;            
-
-  case "main.php":
-  $myTitle = "Disclaimer page";
-  $myPic ="beijing-banner-new.jpg";
-  $myAlt = "Peking index pic";
-  $myPageID = "Disclaimer/Privacy Notice";
-  break;
+     
   //fallback values for undefined pages
   default:
   $myTitle = THIS_PAGE; #the file name is unique
-  $myPic = "alice-tea-party-small.png";
-  $myAlt = "Alice Tea Party"; 
-  $myPageID = "Welcome!";
+  $myPic ="beijing-banner-new.jpg";
+  $myAlt = "Peking index pic";
+  $myPageID = "Welcome";
+
 }
 //--------------END CONFIG AREA --------------------------------
 /*

@@ -14,7 +14,7 @@ Version: 1.0
 }
 
 html{
-	background-color:black; 
+	background-color:white; 
 	}
 	
 body{
@@ -71,6 +71,7 @@ div.sidebar{
     
     width:35%;
 }
+
 
 /*start css menu code*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
@@ -229,7 +230,7 @@ div.embed-container iframe {
 /*end embed rsponsive code*/
 footer {
 	clear:both; 
-	background-color:black; 
+	background-color:darkred; 
 	color:#fff; 
 	text-align:center; 
 }

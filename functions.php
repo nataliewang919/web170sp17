@@ -11,3 +11,5 @@ Version: 1.0
 //Register Nav Menus
 register_nav_menus(array('main-menu'=>__('Main Menu')));
 //
+
+?>

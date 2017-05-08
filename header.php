@@ -36,7 +36,7 @@
 <body <?php body_class(); ?>>   
 <header class="mainheader"> 
 <div class="headerpic">
-   <a href="index.php"><img src="<?php bloginfo('template_directory'); ?>/images/beijing-banner-new.jpg" class="icon" alt="Peking index pic" /></a> 
+<a href="<?php echo get_option('home'); ?>">><img src="<?php bloginfo('template_directory'); ?>/images/beijing-banner-new.jpg" class="icon" alt="Peking index pic" /></a> 
    </div>
  <h2 class="pageid">Welcome to Peking Fun</h2>
   <h1>Peking Fun</h1>

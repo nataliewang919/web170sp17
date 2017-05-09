@@ -93,6 +93,11 @@ div.mainpartone img, div.mainparttwo img {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+#cssmenu ul li.current-menu-item a {
+color: #EBB700; 
+}
+
 #cssmenu:after,
 #cssmenu > ul:after {
   content: ".";

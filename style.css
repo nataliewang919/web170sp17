@@ -35,9 +35,14 @@ h1 {
 h2 {
     text-align: center; 
 }
+/*
+h2.blogtitle{
+    
+    text-align: left;
+}*/
 
 main{
-	width:85%; 	
+	width:75%; 	
 	margin:auto;
 	}
 
@@ -76,14 +81,14 @@ div.mainpartone img, div.mainparttwo img {
 
 img.attachment-thumbnail{
     float:left;
-    margin:20px;
+    margin:15px;
 }
-
+/*
 img.size-large {
 		max-width: 630px;
 		height: auto;
 		}
-
+*/
 /*start css menu code*/
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 #cssmenu,
@@ -561,12 +566,18 @@ body{
 background-color: white;
 margin:auto; 
 	}
-
+    
+img.size-large {
+		max-width: 630px;
+		height: auto;
+		}
+    
 article.mainpage, article.tour{
 	float:left;
-	width:70%; 
-
-	background-color:white; 	 
+	width:62%; 
+    display: inline-block;
+	background-color:white; 
+    overflow: hidden;
 }
 aside.sidenav{    
     float: right;
@@ -611,6 +622,11 @@ aside.restaurantduck{
 	body{
 	background-color:lightpink; 	
 	}
+    
+    img.size-large {
+		max-width: 100%;
+		height: auto;
+		}
 		
 	}
 
@@ -620,6 +636,9 @@ aside.restaurantduck{
 		background-color:lightgoldenrodyellow; 
 		
 	}
-	
+	img.size-large {
+		max-width: 100%;
+		height: auto;
+		}
 	
 }

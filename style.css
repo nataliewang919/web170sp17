@@ -583,7 +583,9 @@ aside.sidenav{
     float: right;
     width: 20%;
 }
-
+    div.widget{
+        margin-bottom:20px; 
+    }
 
 article.contactme {
 	float:left;

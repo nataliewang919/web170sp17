@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><?php bloginfo('description'); ?> | <?php bloginfo('name'); ?></title>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title><?php get_hans_title_tag(); ?></title>
+
+    
+<meta name="description" content="<?php the_excerpt(); ?>">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/script.js"></script>

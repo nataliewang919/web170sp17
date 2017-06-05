@@ -1,6 +1,8 @@
 <!-- Begin Sidebar--> 
 <aside class="sidenav">
     <div id="sidebar">
+              
+        <div id="sub-navigation" class="widget">
         <h2><?php  
     
     if(is_page()){
@@ -33,6 +35,16 @@
             }
             ?> 
             </ul>
+    </div>
+        
+        <div id="pull-word">
+        <?php if(get_post_meta($post->ID, 'quote', true)) : ?>
+        <blockquote><?php echo get_post_meta($post->ID, 'quote', true); ?></blockquote>
+        <?php endif; ?>
+        </div>
+        
+      <?php dynamic_sidebar(1); ?> 
+        
     </div>
 </aside>    
 <!--end side bar-->
